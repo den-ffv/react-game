@@ -1,0 +1,24 @@
+.level{
+    font-family: "Londrina Solid", sans-serif;
+    position: relative;
+    display: inline-block;
+    background: #8121ea;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.level > p {
+    text-shadow: 3px 4px 1px #3e0072;
+    font-size: 35px;
+    color: aliceblue;
+}
+.level:hover{
+    transition: 0.5s;
+    transform: translateY(-5px);
+    background: #6518bd;
+}
